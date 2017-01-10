@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="d3.min.js"></script>
+    <script src="barchart.js"></script>
+    <style type="text/css">
+        body {
+            min-width: 540px;
+            overflow-x: hidden;
+            background-color: #fafafa;
+        }
+        hr {
+            color: #123455;
+        }
+        .x-axis path {
+            stroke: #fafafa;
+            fill: none;
+        }
+        .x-axis line {
+            fill: none;
+            stroke: none;
+            stroke-opacity: .8;
+            shape-rendering: crispEdges;
+        }
+        .bars rect {
+            fill: steelblue;
+            fill-opacity: .9;
+        }
+        .title {
+            font-weight: 700;
+            font-family: "Gisha", "times new roman";
+            font-size: 20px;
+            color: steelblue;
+            vertical-align: center;
+        }
+        .yaxis {
+            font-family: "Gisha", "times new roman", "cousine";
+        }
+        #precise-value {
+            fill: #fafafa;
+            font-size: 12px;
+        }
+        #total {
+            font-family: "Gisha", "times new roman", "cousine";
+            font-weight: 600;
+            color: steelblue
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr id="tab">
+        </tr>
+    </table>
+    <hr align=right width=120>
+    <div id="total" align="right"><u>total:</u>
+    </div>
+</body>
+
+</html>
